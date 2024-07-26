@@ -64,7 +64,7 @@ function Home() {
               <p>Puja    : 11:45am</p>
               <p>Bhog    : 1:00pm</p>
               <p>Evening Sandhya Arti : 7:30pm</p>
-              <p>Mandir Xlosing time : 9:00pm</p>
+              <p>Mandir Closing time : 9:00pm</p>
 
             </div>
 
