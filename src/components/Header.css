@@ -1,0 +1,126 @@
+/* General navbar styles */
+.navbar {
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+  height: 53px;
+  /* Adjusted height */
+  position: fixed;
+  /* Fixed position */
+  width: 100%;
+  /* Ensure full width */
+  top: 0;
+  /* Stick to the top */
+}
+
+.navbar-top {
+  background-color: transparent;
+  /* Transparent background when at the top */
+  box-shadow: none;
+  margin-top: 7.5%;
+  /* No shadow when at the top */
+}
+
+.navbar-scrolled {
+  background-color: #fff8f0;
+  /* Light cream color when scrolled */
+  color: #800000;
+  /* Dark red color */
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow when scrolled */
+
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-family: 'Georgia', serif;
+}
+
+.sssa {
+  margin-top: 20px;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.navbar-brand img {
+  margin-right: 15px;
+  /* Adjust margin as needed */
+  width: 100%;
+  border-radius: 100%;
+
+}
+
+@media screen and (max-width: 680px) {
+  .navbar-brand img {
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+}
+
+.navbar-brand span {
+  color: #800000;
+  /* Dark red color */
+  font-size: 1.5rem;
+}
+
+/* Navigation link styles */
+.navbar-nav {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  /* Adjust to ensure equal spacing */
+}
+
+@media screen and (max-width: 680px) {
+  .navbar-nav {
+    background-color: blanchedalmond;
+    width: 100%;
+    position: relative;
+    margin-bottom: 10%;
+  }
+}
+
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  color: #800000 !important;
+
+  /* Dark red color */
+  padding: 0.5rem 1rem;
+  /* Consistent padding */
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for navigation links */
+.navbar-nav .nav-link:hover {
+  color: #ff6347 !important;
+  /* Tomato color */
+}
+
+/* Dropdown menu styles */
+.nav-dropdown {
+  font-size: 1.1rem;
+  color: #800000 !important;
+  /* Dark red color */
+}
+
+.nav-dropdown .dropdown-item {
+  color: #800000 !important;
+  /* Dark red color */
+}
+
+.nav-dropdown .dropdown-item:hover {
+  color: #ff6347 !important;
+  /* Tomato color */
+  background-color: #fff8f0;
+  /* Light cream color */
+}
+
+/* Placeholder to push content down */
+.header-placeholder {
+  height: 53px;
+  /* Match the navbar height */
+}

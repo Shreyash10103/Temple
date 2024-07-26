@@ -1,0 +1,72 @@
+/* src/components/Heading.css */
+
+.heading {
+  text-align: center;
+  padding: 1.5rem 0;
+  border-radius: 50px;
+
+  background-color: #fff8f0;
+  /* Light cream color fallback */
+  border-bottom: 2px solid #e0c097;
+  /* Bottom border to separate from the navbar */
+  background-image: url('https://thumbs.dreamstime.com/z/goddess-durga-face-happy-puja-subh-navratri-background-illustration-127575169.jpg');
+  /* Replace with your actual image URL */
+  background-size: cover;
+  /* Cover the entire header area */
+  background-position: center;
+  /* Center the background image */
+  color: #ffffff;
+  height: 110px;
+  /* Text color for better contrast */
+}
+
+.heading-title {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading-subtitle {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.heading-content {
+
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* Ensure full height for background image to cover */
+}
+
+.heading-image {
+  width: 6.7%;
+  position: absolute;
+
+  border-radius: 110%;
+  /* Adjust width as needed */
+  height: auto;
+  margin-left: -26%;
+  margin-top: -1%;
+
+
+  /* Maintain aspect ratio */
+
+  /* Space between image and text */
+}
+
+@media screen and (max-width: 680px) {
+  .heading-image {
+    display: none;
+
+  }
+}
+
+
+
+.heading-text {
+  flex: 1;
+
+
+  /* Take up remaining space */
+}

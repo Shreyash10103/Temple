@@ -1,0 +1,23 @@
+/* src/components/Slider.css */
+
+.carousel-item {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent black background */
+  color: #ffffff;
+  /* White text color */
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.carousel-item img {
+  height: 400px;
+  /* Adjust height as needed */
+  object-fit: cover;
+  width: 33.3%;
+  /* Ensure images cover the carousel item */
+}
