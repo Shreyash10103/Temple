@@ -60,6 +60,19 @@
     display: none;
 
   }
+
+  .heading-title {
+    font-size: 1rem;
+    margin-top: -5px;
+  }
+
+  .heading {
+    height: 70px;
+  }
+
+  .heading-subtitle {
+    font-size: 0.58rem;
+  }
 }
 
 

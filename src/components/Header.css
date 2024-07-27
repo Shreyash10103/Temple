@@ -53,8 +53,9 @@
 
 @media screen and (max-width: 680px) {
   .navbar-brand img {
-    margin-left: -20px;
-    margin-top: 10px;
+
+    margin-top: -20px;
+    margin-left: -15px;
   }
 }
 
@@ -79,7 +80,7 @@
     background-color: blanchedalmond;
     width: 100%;
     position: relative;
-    margin-bottom: 10%;
+
   }
 }
 
@@ -89,7 +90,6 @@
   color: #800000 !important;
 
   /* Dark red color */
-  padding: 0.5rem 1rem;
   /* Consistent padding */
   transition: color 0.3s ease-in-out;
 }
@@ -120,7 +120,3 @@
 }
 
 /* Placeholder to push content down */
-.header-placeholder {
-  height: 53px;
-  /* Match the navbar height */
-}
