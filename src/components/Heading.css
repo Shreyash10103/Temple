@@ -62,8 +62,9 @@
   }
 
   .heading-title {
-    font-size: 1rem;
-    margin-top: -5px;
+    font-size: 1.3rem;
+    margin-top: -10px;
+    padding-bottom: 1px;
   }
 
   .heading {
@@ -71,7 +72,7 @@
   }
 
   .heading-subtitle {
-    font-size: 0.58rem;
+    font-size: 0.8rem;
   }
 }
 

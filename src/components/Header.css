@@ -17,7 +17,7 @@
   background-color: transparent;
   /* Transparent background when at the top */
   box-shadow: none;
-  margin-top: 7.5%;
+  margin-top: 13.5%;
   /* No shadow when at the top */
 }
 
@@ -54,7 +54,7 @@
 @media screen and (max-width: 680px) {
   .navbar-brand img {
 
-    margin-top: -20px;
+
     margin-left: -15px;
   }
 }
@@ -120,3 +120,7 @@
 }
 
 /* Placeholder to push content down */
+.header-placeholder {
+  height: 53px;
+  /* Match the navbar height */
+}
