@@ -55,7 +55,7 @@
   .navbar-brand img {}
 
   .navbar-top {
-    margin-top: 16.5%;
+    margin-top: 19.5%;
   }
 }
 
@@ -121,6 +121,6 @@
 
 /* Placeholder to push content down */
 .header-placeholder {
-  height: 53px;
+  height: 51px;
   /* Match the navbar height */
 }

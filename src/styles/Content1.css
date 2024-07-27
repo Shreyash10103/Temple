@@ -15,6 +15,7 @@
 
 
 
+
 .card6 {
   margin-top: -8%;
   background-color: white;
@@ -154,4 +155,86 @@ button {
   .card1 {
     height: 620px;
   }
+}
+
+/* Customize arrow styles */
+.slick-prev,
+.slick-next {
+  width: 420px;
+  height: 450px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 0, 0, 0.7);
+  /* Dark red background */
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+  /* Pointer cursor on hover */
+}
+
+.slick-prev {
+  left: -25px;
+  /* Adjust position for left arrow */
+}
+
+.slick-next {
+  right: -25px;
+  /* Adjust position for right arrow */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+  color: white;
+  /* Arrow color */
+}
+
+/* Dots customization */
+.slick-dots {
+  bottom: -25px;
+  /* Position dots closer to the carousel if needed */
+}
+
+.slick-dots li {
+  margin: 0 8px;
+  /* Spacing between dots */
+}
+
+.slick-dots li button {
+  width: 25px;
+  /* Larger width for dots */
+  height: 5px;
+  /* Larger height for dots */
+  border-radius: 50%;
+  /* Make dots circular */
+  background-color: transparent;
+  /* Background color of dots */
+  transition: all 0.3s ease;
+  /* Smooth transition for hover and active states */
+}
+
+.slick-dots li button:before {
+  margin-top: 10px;
+  font-size: 50px;
+  transform: scale(2.2);
+  /* Increase font size to make dots larger */
+  color: #800000;
+  /* Dark red color */
+  opacity: 0.75;
+  /* Slight transparency */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff6347;
+  /* Tomato color for active dot */
+  opacity: 1;
+  /* Full opacity for active dot */
+}
+
+.slick-dots li button:hover:before {
+  color: #ff4500;
+  /* Change color on hover */
+  transform: scale(2.5);
+  /* Slightly enlarge dot on hover */
 }
