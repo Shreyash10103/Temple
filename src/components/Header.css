@@ -3,7 +3,7 @@
   transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   padding: 0.5rem 1rem;
   z-index: 1000;
-  height: 53px;
+  height: 76px;
   /* Adjusted height */
   position: fixed;
   /* Fixed position */
@@ -17,7 +17,7 @@
   background-color: transparent;
   /* Transparent background when at the top */
   box-shadow: none;
-  margin-top: 13.5%;
+  margin-top: 7.5%;
   /* No shadow when at the top */
 }
 
@@ -26,7 +26,7 @@
   /* Light cream color when scrolled */
   color: #800000;
   /* Dark red color */
-  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 45px rgba(0, 0, 0, 0.1);
   /* Subtle shadow when scrolled */
 
 }
@@ -52,10 +52,10 @@
 }
 
 @media screen and (max-width: 680px) {
-  .navbar-brand img {
+  .navbar-brand img {}
 
-
-    margin-left: -15px;
+  .navbar-top {
+    margin-top: 16.5%;
   }
 }
 
