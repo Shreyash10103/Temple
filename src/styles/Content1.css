@@ -9,7 +9,11 @@
   border-radius: 10px;
 }
 
-@media only screen and (max-width:700px) {}
+
+
+
+
+
 
 .card6 {
   margin-top: -8%;
@@ -45,16 +49,6 @@
 
 
 
-.image1 {
-  width: full;
-  background-color: blue;
-  justify-content: center;
-  border-top-left-radius: 10px;
-
-
-
-
-}
 
 .card2 {
   display: flex;
@@ -79,16 +73,10 @@ button {
 
 }
 
-.slick-slide {
-  max-width: 100%;
-  /* Ensure images don't exceed container width */
-  height: 100%;
-  /* Allow images to adjust their height proportionally */
-  transition: all 1.5s;
-}
+
 
 .slick-slide>div {
-  margin: 0 10px;
+
   cursor: pointer;
   max-width: 100%;
 
@@ -100,6 +88,29 @@ button {
   height: 400px;
   width: auto;
   /* Reset width to allow images to scale */
+}
+
+@media only screen and (max-width:720px) {
+  .image1 {
+    height: 100%;
+  }
+
+  .card1 {
+    height: 600px;
+  }
+
+}
+
+@media only screen and (max-width:1200px) {
+  .card1 {
+    height: 800px;
+  }
+}
+
+@media only screen and (max-width:1300px) {
+  .card1 {
+    height: 770px;
+  }
 }
 
 
@@ -127,14 +138,20 @@ button {
     font-size: 1.15rem;
   }
 
-  .card1 {
-    height: 820px;
-  }
+
 
 }
 
 @media (max-width: 800px) {
   .bodyy {
     font-size: 1.1rem;
+  }
+
+
+}
+
+@media (max-width: 400px) {
+  .card1 {
+    height: 620px;
   }
 }

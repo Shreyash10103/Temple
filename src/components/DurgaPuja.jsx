@@ -67,27 +67,27 @@ const DurgaPuja = () => {
               <tr>
                 <td>Sasthi</td>
                 <td>Opening Ceremony & Pandal Inauguration</td>
-                <td>10:00 AM</td>
+                <td>00:00 AM</td>
               </tr>
               <tr>
                 <td>Saptami</td>
                 <td>Puja Rituals & Cultural Programs</td>
-                <td>8:00 AM - 8:00 PM</td>
+                <td>00:00 AM - 00:00 PM</td>
               </tr>
               <tr>
                 <td>Ashtami</td>
                 <td>Sandhi Puja & Traditional Dance Performances</td>
-                <td>9:00 AM - 9:00 PM</td>
+                <td>00:00 AM - 00:00 PM</td>
               </tr>
               <tr>
                 <td>Navami</td>
                 <td>Bhog Distribution & Musical Night</td>
-                <td>9:00 AM - 10:00 PM</td>
+                <td>00:00 AM - 00:00 PM</td>
               </tr>
               <tr>
                 <td>Dashami</td>
                 <td>Visarjan & Farewell</td>
-                <td>10:00 AM - 5:00 PM</td>
+                <td>00:00 AM - 00:00 PM</td>
               </tr>
             </tbody>
           </table>

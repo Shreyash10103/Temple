@@ -60,22 +60,22 @@ const JagannathRathYatra = () => {
               <tr>
                 <td>Day 1</td>
                 <td>Chariot Decoration & Inauguration</td>
-                <td>9:00 AM</td>
+                <td>00:00 AM</td>
               </tr>
               <tr>
                 <td>Day 2</td>
                 <td>Procession Begins & Cultural Shows</td>
-                <td>7:00 AM - 8:00 PM</td>
+                <td>00:00 AM - 00:00 PM</td>
               </tr>
               <tr>
                 <td>Day 3</td>
                 <td>Bhajans & Spiritual Talks</td>
-                <td>8:00 AM - 9:00 PM</td>
+                <td>00:00 AM - 00:00 PM</td>
               </tr>
               <tr>
                 <td>Day 4</td>
                 <td>Return Journey & Closing Ceremony</td>
-                <td>8:00 AM - 5:00 PM</td>
+                <td>00:00 AM - 00:00 PM</td>
               </tr>
             </tbody>
           </table>

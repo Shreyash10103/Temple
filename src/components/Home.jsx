@@ -34,8 +34,10 @@ function Home() {
             </p>
           </div>
           <div className='col-lg-3'>
+
             <div className="marquee-container">
               <div className="marquee">
+                <h4><center>NOTICE</center></h4>
                 <p>Notice 1: Temple event on Friday</p>
                 <p>Notice 2: Special prayers on Sunday</p>
                 <p>Notice 3: Volunteer meeting on Wednesday</p>

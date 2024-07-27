@@ -28,7 +28,7 @@ const Content1 = () => {
     {
       name: "Ambubachi Narayan Seva",
       img: im,
-      content: "The Ambubachi Festival, a unique and vibrant celebration, is organized annually by RestCamp Kalibari. This auspicious event takes place at our historic temple  and marks the annual menstruation cycle of the goddess Kamakhya.As part of the Festival, we offer prasad to all devotees, a sacred gesture of the goddess's boundless grace and compassion."
+      content: "The Ambubachi Festival is an auspicious event takes place at our historic temple  and marks the annual menstruation cycle of the goddess Kamakhya.As part of the Festival, we offer prasad to all devotees, a sacred gesture of the goddess's boundless grace and compassion."
     },
 
 
@@ -52,7 +52,7 @@ const Content1 = () => {
   return (
 
     <div className='services' id="Productt">
-      <div className='container mx-auto px-4 py-8'>
+      <div className='container mx-auto px-0 py-8'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
           <Slider {...(window.innerWidth > 768 ? settings : settings1)}>
             {data.map((d, index) => (
